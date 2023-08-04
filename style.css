@@ -1,0 +1,65 @@
+body {
+    background: #000000;
+
+}
+
+#header-div {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#header-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    color: darkorange;
+}
+
+#converter-body {
+    background-color: rgb(2, 2, 2);
+    width: 25%;
+    height: 340px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: #070707;
+
+
+}
+
+#converter-element {
+    background-color: goldenrod;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding-left: 0.5em;
+    padding-top: 10em;
+
+}
+
+#converter-message {
+    width: 25%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+#converter-icon {
+    padding-top: 4.1em;
+    padding-left: 40px;
+}
+
+#inputbox-caption {
+    text-align: center;
+}
+
+input {
+    width: 100px;
+    height: 50px;
+}
